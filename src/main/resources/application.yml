@@ -14,15 +14,15 @@ spring:
 
 
 
-# eureka:
-#   instance:
-#     #lease-renewal-interval-in-seconds: 1
-#     #lease-expiration-duration-in-seconds: 2
-#     hostname: localhost
-#   client:
-#     service-url:
-#        defaultZone: https://eurekaservice-production.up.railway.app/eureka/
-#     healthcheck:
-#       enabled: true
-#     lease:
-#       duration:5
+eureka:
+  instance:
+    #lease-renewal-interval-in-seconds: 1
+    #lease-expiration-duration-in-seconds: 2
+    hostname: localhost
+  client:
+    service-url:
+       defaultZone: https://eurekaservice-production.up.railway.app/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration:5
